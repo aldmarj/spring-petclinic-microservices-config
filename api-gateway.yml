@@ -9,14 +9,6 @@ server:
 # Internationalization
 spring.messages.basename: messages/messages
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: "always"
 
 spring:
   config:
